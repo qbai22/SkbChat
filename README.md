@@ -11,3 +11,6 @@
 2) Внутри приложения используется ряд библиотек Firebase для авторизации/базы данных/хранилища
 3) Загрузка изображений с помощью Glide
 4) View injection при помощи Butterknife
+
+
+![alt-tag](https://cloud.githubusercontent.com/assets/14185390/25104955/f7f90c7e-23db-11e7-99c3-ddaf1b5834e4.jpg)
