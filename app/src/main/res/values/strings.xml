@@ -2,7 +2,6 @@
     <string name="app_name">SkbChat</string>
     <string name="action_sign_in_short">Зарегистрироваться</string>
     <string name="email">Email</string>
-
     <string name="auth_failed">Авторизация не удалась! Проверье почту, пароль или зарегистрируйтесь!</string>
     <string name="hint_password">Пароль</string>
     <string name="btn_login">Войти</string>

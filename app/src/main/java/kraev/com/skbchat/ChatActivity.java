@@ -57,7 +57,6 @@ public class ChatActivity extends AppCompatActivity {
 
     public static final int REQUEST_CODE_PHOTO_PICKER = 19;
     private static final String ANONYMOUS = "Аноним";
-    private static final String NICK_NAME_EXTRA = "nick_name_extra";
 
     @BindView(R.id.msg_recycler_view)
     RecyclerView mMessagesRecyclerView;
@@ -100,7 +99,6 @@ public class ChatActivity extends AppCompatActivity {
 
     private List<ChatMessage> mChatMessageList;
     private MessageRecyclerAdapter mAdapter;
-    private int mOnlineUsersCount;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -258,9 +256,10 @@ public class ChatActivity extends AppCompatActivity {
         mChatMessageList.clear();
     }
 
+   
     @Override
-    protected void onStop() {
-        super.onStop();
+    protected void onDestroy() {
+        super.onDestroy();
         setUserOffline();
     }
 
@@ -388,6 +387,7 @@ public class ChatActivity extends AppCompatActivity {
     private void setUserOffline() {
         mUserOnlineDatabaseReference.child(mCurrentUserUid).removeValue();
     }
+
 
 }
 
