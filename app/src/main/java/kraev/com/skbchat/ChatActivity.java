@@ -256,7 +256,7 @@ public class ChatActivity extends AppCompatActivity {
         mChatMessageList.clear();
     }
 
-   
+
     @Override
     protected void onDestroy() {
         super.onDestroy();
