@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">SkbChat</string>
+    <string name="action_sign_in_short">Зарегистрироваться</string>
+    <string name="email">Email</string>
+
+    <string name="auth_failed">Авторизация не удалась! Проверье почту, пароль или зарегистрируйтесь!</string>
+    <string name="hint_password">Пароль</string>
+    <string name="btn_login">Войти</string>
+    <string name="btn_link_to_register">Ещё не успели? Зарегистрируйтесь сейчас!</string>
+    <string name="btn_link_to_login">Уже зарегистрирован. Дайте войти!</string>
+    <string name="btn_forgot_password">Забыли пароль?</string>
+    <string name="btn_reset_password">Сбросить пароль</string>
+    <string name="btn_back"><![CDATA[<< Назад]]></string>
+    <string name="lbl_forgot_password">Забыли пароль?</string>
+    <string name="forgot_password_msg">Просто введите email и мы вышлем инструкции вам на почту</string>
+    <string name="empty_email_toast">Введите вашу электронную почту</string>
+    <string name="empty_password_toast">Введите пароль!</string>
+    <string name="password_too_short_toast">Пароль слишком короткий требуется 6 символов!</string>
+    <string name="enter_message_hint">Введите сообщение…</string>
+    <string name="pass_reset_toast_success">Инструкции по смене пароля отправлены вам на почту!</string>
+    <string name="pass_reset_toast_fail">Не удалось изменить пароль!</string>
+    <string name="choose_avatar_text">Выберите себе аватар</string>
+    <string name="choose_nickname_edit_text_hint">Придумайте себе ник…</string>
+    <string name="settings_nav">Настройки</string>
+    <string name="contacts_nav">Контакты</string>
+    <string name="channels_nav">Каналы</string>
+    <string name="help_nav">Помощь</string>
+    <string name="about_nav">О программе</string>
+    <string name="logout_nav">Смена пользователя</string>
+    <string name="too_long_nick_toast">Ваш ник слишком длинный!</string>
+    <string name="hint_email">Введите Email</string>
+    <string name="network_unavailible_toast">Отсутствет подключение к сети</string>
+    <string name="unsuccessful_auth_toast">Авторизация не удалась</string>
+    <string name="toolbar_online_text">Людей в чате:  </string>
+    <string name="download_failed">Загрузка фотографии не удалась</string>
+</resources>

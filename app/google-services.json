@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "201913235668",
+    "firebase_url": "https://skb-chat-5e9dd.firebaseio.com",
+    "project_id": "skb-chat-5e9dd",
+    "storage_bucket": "skb-chat-5e9dd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:201913235668:android:be6f5a9a66fc1de9",
+        "android_client_info": {
+          "package_name": "kraev.com.skbchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "201913235668-09c9anvnmr0uqc70fugqhmhqq30hki4g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kraev.com.skbchat",
+            "certificate_hash": "f4df3d46d44829694146d0e05f8228c2021817bb"
+          }
+        },
+        {
+          "client_id": "201913235668-es5u5rojfieb9o46i2ugedcf2girqe9o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgnxvnQ-3p0eZjHFDSxT0_kiTkfKR_h-g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "201913235668-es5u5rojfieb9o46i2ugedcf2girqe9o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
