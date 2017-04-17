@@ -13,4 +13,4 @@
 4) View injection при помощи Butterknife
 
 
-![alt-tag](https://cloud.githubusercontent.com/assets/14185390/25104955/f7f90c7e-23db-11e7-99c3-ddaf1b5834e4.jpg)
+![alt-tag](https://cloud.githubusercontent.com/assets/14185390/25105170/f1054c7e-23dc-11e7-96ed-6e28978cf97d.jpg)
