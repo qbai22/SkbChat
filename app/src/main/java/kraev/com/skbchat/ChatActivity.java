@@ -167,7 +167,7 @@ public class ChatActivity extends AppCompatActivity {
                 }
                 //Cоздаем и пушим сообщение в базу данных
                 ChatMessage message = new ChatMessage(
-                        mMessageEditText.getText().toString(), mUsername, null, null, mCurrentUserUid);
+                        mMessageEditText.getText().toString().trim(), mUsername, null, null, mCurrentUserUid);
                 mMessagesDatabaseReference.push().setValue(message);
 
                 mMessageEditText.setText("");
